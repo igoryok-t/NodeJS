@@ -57,3 +57,5 @@ document.querySelectorAll('.price').forEach(node => {
       
     })
   } 
+
+  var instance = M.Tabs.init(document.querySelector('.tabs'));
