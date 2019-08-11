@@ -11,7 +11,6 @@ const User = require('./models/user')
 
 const app = express()
 
-
 const hbs = exphbs.create({
     defaultLayout: 'main',
     extname: 'hbs'
